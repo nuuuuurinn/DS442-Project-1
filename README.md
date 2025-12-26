@@ -86,13 +86,9 @@ while coming back (right → left) is easier.
 • Right → Left trip = cost 1
 
 #### Question 3: A* Search with Admissible Heuristics
-In this part, you will extend UCS to A* search using Cost Model A.
-
+In this part, you will extend UCS to A* search using Cost Model A. 
 We will use the following heuristics with A*
 
-Heuristic 1 — Passenger Weight Remaining
-ℎ(𝑠) = 2𝑀le# + 1𝐶le#
-Heuristic 2 — Trip-Packing Lower Bound
-ℎ"(𝑠) = ⌈
-2𝑀le# + 1𝐶le#
-3 ⌉
+Heuristic 1 — Passenger Weight Remaining: _h1_(𝑠) = 2𝑀(left) + 1𝐶(left)
+
+Heuristic 2 — Trip-Packing Lower Bound: _h2_(𝑠) = ⌈(2𝑀(left) + 1𝐶(left))/3⌉
