@@ -1,5 +1,5 @@
 # DS442-Project-1
-## Project 1: Solve the River Crossing Puzzle
+## Project 1: Solve the River Crossing Puzzle with search algorithms (DFS, BFS, UCS, A*)
 
 ### Project Description
 The River Crossing Puzzle is a classic AI problem. In this puzzle, you must transport a group of characters across a river using a boat, subject to rules and constraints.
