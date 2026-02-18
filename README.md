@@ -6,7 +6,9 @@ The River Crossing Puzzle is a classic AI problem. In this puzzle, you must tran
 Scenario (Missionaries & Cannibals variant):
 
 • There are 3 missionaries and 3 cannibals on the left bank of the river.
+
 • The boat can carry at most 2 people at a time, and has to carry at least one person at a time.
+
 • At no point on either bank should cannibals outnumber missionaries (if missionaries are present).
 
 The goal state is to move all missionaries and cannibals to the right bank without breaking the rules by implementing search algorithms (DFS, BFS, UCS, A*) in Python 3.9 to solve this problem under different conditions.
